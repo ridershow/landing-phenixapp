@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "staging": "landing-phenix-c6608",
+    "default": "landing-phenix-c6608"
+  }
+}
