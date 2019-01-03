@@ -1,0 +1,18 @@
+[debug] [2019-01-03T16:29:28.272Z] ----------------------------------------------------------------------
+[debug] [2019-01-03T16:29:28.273Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2019-01-03T16:29:28.274Z] CLI Version:   6.2.2
+[debug] [2019-01-03T16:29:28.274Z] Platform:      darwin
+[debug] [2019-01-03T16:29:28.274Z] Node Version:  v8.11.1
+[debug] [2019-01-03T16:29:28.274Z] Time:          Thu Jan 03 2019 17:29:28 GMT+0100 (CET)
+[debug] [2019-01-03T16:29:28.274Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-03T16:29:28.281Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-03T16:29:28.282Z] > authorizing via signed-in user
+[debug] [2019-01-03T16:29:28.282Z] [iam] checking project landing-phenix-c6608 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-01-03T16:29:28.283Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/landing-phenix-c6608:testIamPermissions  
+
+[debug] [2019-01-03T16:29:28.308Z] Error: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
