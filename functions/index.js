@@ -7,7 +7,6 @@ const functions = require('firebase-functions');
 //  response.send("Hello from Firebase!");
 // });
 
-const functions = require('firebase-functions')
 const flamelink = require('flamelink')
 const admin = require('firebase-admin')
 
