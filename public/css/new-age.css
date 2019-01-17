@@ -362,6 +362,10 @@ section.phenix h2 {
   font-size: 2em;
 }
 
+section.phenix .discover-phenix {
+  text-align: center;
+}
+
 section.cta {
   position: relative;
   padding: 60px 0;
@@ -394,6 +398,7 @@ section.cta .cta-content h4 {
   section.cta .cta-content h2 {
     font-size: 60px;
   }
+
 }
 
 section.cta .overlay {
@@ -526,7 +531,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-xl {
   font-size: 18px;
-  padding: 35px 35px;
+  padding: 21px 35px;
 }
 
 @media (max-width: 375px) {
