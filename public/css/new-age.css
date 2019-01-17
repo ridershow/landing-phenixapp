@@ -364,7 +364,7 @@ section.phenix h2 {
 
 section.cta {
   position: relative;
-  padding: 120px 0;
+  padding: 60px 0;
   background-image: url("../img/bg-cta.jpg");
   background-position: center;
   background-size: cover;
@@ -380,9 +380,14 @@ section.cta .cta-content h2 {
   font-size: 60px !important;
   max-width: auto;
   margin-top: 0;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   color: white;
   text-align: center;
+}
+
+section.cta .cta-content h4 {
+  margin-bottom: 40px;
+  line-height: 1.5;
 }
 
 @media (min-width: 768px) {
@@ -401,10 +406,6 @@ section.cta .overlay {
 }
 
 section.contact {
-  text-align: center;
-}
-
-section.cta .container a {
   text-align: center;
 }
 
