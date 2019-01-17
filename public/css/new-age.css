@@ -531,7 +531,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-xl {
   font-size: 18px;
-  padding: 35px 35px;
+  padding: 21px 35px;
 }
 
 @media (max-width: 375px) {
